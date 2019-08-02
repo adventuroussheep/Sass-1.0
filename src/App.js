@@ -5,8 +5,9 @@ import './main.css';
 function App() {
   return (
     <div className="App">
-
-<div id="bg">
+        <body>
+        <div id="bg"></div>
+        
         <header>
           <a href="#">Zoom</a>
         </header>
@@ -39,10 +40,9 @@ function App() {
 
         </main>
 
-
+        </body>
         </div>
-    </div>
-  );
-}
-
-export default App;
+       );
+      }
+      
+      export default App;
